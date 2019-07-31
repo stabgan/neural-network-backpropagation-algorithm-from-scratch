@@ -10,9 +10,9 @@ def relu_der(x) :
 class neuralnet() :
 
     def __init__(self,w1,w2,b) :
-        self.w1 = np.array(t)
-        self.w2 = np.array(t)
-        self.b = np.array(t)
+        self.w1 = w1
+        self.w2 = w2
+        self.b = b
         self.lr = 0.01
         self.epochs_to_train = 40
 
